@@ -1,0 +1,55 @@
+@media(max-width:768px){
+	.container{
+		max-width: 750px;
+	}
+	.gallery-item{
+		flex-direction: column;
+	}
+	.gallery-item:nth-child(2) h3{
+		order: -1;
+	}
+	.gallery-item h3{
+		padding: 40px;
+	}
+}
+@media(max-width:425px){
+	.footer{
+		flex-direction: column;
+	}
+	.footer div{
+	margin-top: 10px;
+	}
+	.numbers{
+		flex-direction: column;
+	}
+	.ski-racer{
+		width: 100%;
+	}
+	.ski-racer p{
+		font-size: 4vw;
+	}
+	.title,.temp-title,.numbers-title{
+		text-align: center;
+	}
+	.container,.about-place{
+		padding:0px 10px;
+	}
+	.slogan h1{
+		font-size: 48px;
+	}
+	.hidden{
+		width: 100%;
+		display: table;
+	}
+	.main-table{
+		display: none;
+	}
+}
+@media(max-width:365px){
+	.menu-list a{
+	font-size: 16px;
+	}
+	#maps p{
+		text-align: center;
+	}
+}

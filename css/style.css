@@ -1,0 +1,231 @@
+html{
+	scroll-behavior: smooth;
+}
+*{
+	font-family: 'Noto Sans', sans-serif;
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+ul,ol{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.main-menu{
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+}
+.main-menu img{
+	width: 75px;
+	height: 70px;
+}
+.menu-list{
+	display: flex;
+	justify-content:space-around;
+	flex-grow: 1;
+}
+.slogan{
+	background-image:url(../img/innsbruck1.png);
+	background-size: cover;
+	height: 560px;
+	background-repeat: no-repeat;
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.menu-list a{
+	color:#2A3D8F;
+	font-size: 24px;
+}
+.menu-list a:hover{
+	color: #3893cc;
+}
+.slogan h1{
+	font-size:60px;
+	color: white;
+}
+.slogan-title{
+	display: flex;
+	align-items: center;
+	height: 560px;
+}
+.title{
+	font-size:36px;
+	color: #2A3D8F;
+}
+.ski-racer{
+	background-image:url(../img/skier.png);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center right;
+	width: 30%;
+	padding: 10px;
+	text-align: right;
+
+}
+.hidden{
+	display: none;
+}
+.ski-racer p{
+	font-size: 2vw;
+	text-align: left;
+}
+.ski-racer a{
+	display:inline-block;
+	text-align: right;
+	margin-top: 60px;
+	background-color: white;
+}
+.numbers{
+	align-items: center;
+	justify-content:space-between;
+	display: flex;
+	margin-left: 30px;
+}
+p{
+	font-size: 20px;
+}
+.about-place{
+	padding:30px 0px;
+}
+#about-city{
+	padding: 40px 0px;
+}
+#about-city h3{
+	font-size: 30px;
+	margin-top: 30px;
+}
+.temp-title{
+	font-weight: bold;
+	font-size: 22px;
+	text-align: left;
+	margin-top: 20px;
+}
+.temp{
+	margin-top: 20px;
+	border:1px solid #c0c0c0 ;
+	text-align: center;
+	width: 100%;
+}
+.temp img{
+	width: 100%;
+	height: 100%;
+}
+.shadow{
+	background-color: gray;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	font-size: 22px;
+}
+.numbers li::before{
+	content: "✓";
+	position: absolute;
+	left: -20px;
+}
+.numbers li{
+	position: relative;
+}
+.gallery-list{
+	display: flex;
+	flex-direction: column;
+}
+.gallery-item{
+	justify-content: space-between;
+	text-align: center;
+	background-color:#B5D4C5;
+	align-items: center;
+	margin-top: 10px;
+	display: flex;
+	min-height: 255px;
+}
+.gallery-item h3{
+	color: white;
+	font-size: ;
+	flex-grow: 1;
+	text-align: center;
+	text-transform: uppercase;
+}
+#gallery p{
+	margin:30px 0;
+}
+#maps td,#maps th{
+	padding: 5px;
+	text-align: center;
+	border:1px black solid;
+}
+#maps table{
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+#maps th{
+	background-color: rgb(32, 46, 92);
+	color: white;
+}
+#maps p{
+	padding:20px 0;
+}
+#maps{
+	margin-bottom: 40px;
+}
+.social{
+	display: flex;
+}
+.twitter,.youtube,.facebook{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	border:2px white double;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.facebook:hover{
+	border:2px black solid;
+}
+.twitter:hover{
+	border:2px black solid;
+}
+.youtube:hover{
+	border:2px black solid;
+}
+.footer{
+	padding:25px 0;
+	display: flex;
+	background-color: #B5D4C5;;
+	align-items: center;
+	justify-content: space-between;
+}
+.footer div{
+	margin:0 auto;
+}
+.visit{
+	padding: 15px;
+	border:2px black double;
+	border-radius: 10px;
+}
+.fox-art{
+	padding: 15px;
+	border:2px black double;
+	border-radius: 10px;
+}
+#maps .title{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.hidden th,.hidden td{
+	width: 150px;
+}
+.hidden{
+	margin-bottom:40px;
+}
